@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hand-drawn explanatory illustration skill for AI agents. Character: ABIDEMI.",
   "bin": {
-    "abidemi-illustrations": "./bin/init.js"
+    "abidemi-illustrations": "bin/init.js"
   },
   "files": [
     "bin/",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git"
+    "url": "git+https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git"
   },
   "engines": {
     "node": ">=16"
