@@ -78,6 +78,16 @@ black line art, minimal accent colors, and ABIDEMI must be doing something — n
 
 ## Installation
 
+### NPX (Fastest)
+
+Run this inside your project folder:
+
+```bash
+npx @bigdrops/abidemi-illustrations init
+```
+
+Auto-detects your agent (Codex, Claude Code, Cursor, Windsurf) and installs to the correct skills folder.
+
 ### Codex / Claude Code
 
 ```bash
