@@ -1,53 +1,32 @@
-# ABIDEMI Character
+# ABIDEMI Character Definition
 
-## Character Definition
+## Visual Identity
 
-ABIDEMI is the fixed visual character for explanatory illustrations.
+- **Shape:** Solid black circle or rounded blob (main body).
+- **Eyes:** Two white dots, centered, same size, no expression.
+- **Limbs:** Thin black lines (stroke width 2–3px). Stick‑figure simplicity.
+- **Posture:** Neutral, slightly slumped, never heroic.
 
-Every image should feature ABIDEMI by default. ABIDEMI is not a mascot, not a sticker, not a cute decoration. ABIDEMI is a quirky worker who is seriously participating in how systems operate.
+## Role in Illustrations
 
-## Appearance
+ABIDEMI is not a mascot or decoration. ABIDEMI **performs the core action** of the image. If you can remove ABIDEMI and the image still makes sense, the illustration has failed.
 
-- Solid black small creature.
-- White round dot eyes.
-- Thin legs, occasionally thin arms.
-- Body can be cylinder, black bean, black box, funnel, shadow, hole opening, machine interior block.
-- Slightly irregular outline with a hand-drawn feel.
-- Expression is blank, staring, calm, serious.
+## What ABIDEMI Does
 
-## Personality
+- Pushes, pulls, carries, points, enters, exits, stands inside, breaks, fixes, connects, blocks.
+- Interacts with abstract objects (e.g., "Quick Share block", "Bada key", "Android gate").
 
-- Very serious, but does absurd things.
-- Like a low-key system operator.
-- Dry humor, not trying to be cute.
-- A bit clumsy, but not stupid.
-- Like a real person responsible for something in a whiteboard sketch.
+## What ABIDEMI Does NOT Do
 
-## Common Responsibilities
+- No facial expressions (no smiles, no sadness, no surprise).
+- No speech bubbles or dialogue.
+- No cute poses (hands on hips, waving).
+- No gender markers.
 
-Give ABIDEMI the core action:
+## Scale
 
-- Carrying materials.
-- Pulling wires to gather information sources.
-- Stuck at breakpoints.
-- Operating the "judgment" lever inside a machine.
-- Turning into a screening funnel.
-- Cutting open a "material fish".
-- Stamping handoff scripts.
-- Guiding the handoff path.
-- Holding warning signs to look at pitfalls.
-- Reaching out from a hole but unable to catch content.
-- Beside the scene, carrying bricks, building bridges, opening doors, sorting, recording.
+ABIDEMI should occupy roughly 15–25% of the frame, not including objects it interacts with. Never tiny, never dominating.
 
-## Prohibitions
+## Color
 
-- Do not draw ABIDEMI as an overly cute mascot.
-- Do not draw as a children's cartoon character.
-- Do not give ABIDEMI complex costumes, emoji expressions, or shiny eyes.
-- Do not let ABIDEMI just stand in the corner watching.
-- Do not let ABIDEMI steal the structural expression.
-- Do not draw ABIDEMI too commercial, too rounded, too polished.
-
-## Judgment Criteria
-
-If removing ABIDEMI leaves the core metaphor completely intact, ABIDEMI is too decorative. Rewrite the prompt to make ABIDEMI the action subject.
+Always black (`#000000`) – no exceptions. Accent colors are for **annotations only**, not for ABIDEMI.
