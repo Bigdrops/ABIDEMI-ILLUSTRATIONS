@@ -15,9 +15,6 @@ output_formats:
   - html_canvas_with_mp4_export
   - motion_photo_description
 
-removed_formats:
-  - react_component  # No export path to social media; removed in v1.0.0
-
 fallback_mode:
   enabled: true
   behavior: "If image generation API is not configured, output a prompt for Gemini or any image generator. Include exact folder path for saving the PNG."

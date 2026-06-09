@@ -29,7 +29,7 @@ Use the ABIDEMI skill to output sequential PNGs (e.g., `frame-01.png` to `frame-
 For **flipbook:** Each frame is a distinct pose – ABIDEMI moves across the canvas.
 For **progressive reveal:** Each frame adds one layer – ABIDEMI stays in same position.
 ### Step 2: Generate MP4 video
-Use the `mp4-canvas.md` output format to create a short video (2-3 seconds) of the exact same animation or reveal.
+Use the `html-canvas.md` output format to create a short video (2-3 seconds) of the exact same animation or reveal.
 ### Step 3: Combine into a Live Container
 On your device, use a dedicated utility app (like MotionPhoto Maker or LivePhoto Camera on Google Play) to embed the files:
 1. Select your target static PNG/JPEG frame to act as the visual cover image.

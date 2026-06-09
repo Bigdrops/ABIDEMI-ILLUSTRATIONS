@@ -23,7 +23,7 @@ Before outputting any illustration (any format), verify:
 - [ ] Self‑contained (no external CDNs unless necessary – prefer inline).
 - [ ] Canvas animations use `requestAnimationFrame`.
 - [ ] Export MP4 button is visible and functional in Chrome.
-- [ ] MediaRecorder uses `video/webm` with fallback.
+- [ ] MediaRecorder checks `video/mp4` first, `video/webm` as fallback.
 - [ ] Animation has defined end frame (TOTAL_FRAMES) for clean stop.
 - [ ] Exported file name is meaningful.
 

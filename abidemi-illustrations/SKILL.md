@@ -34,7 +34,7 @@ If the agent cannot call an image generation API, it MUST:
 The agent must NOT fail silently or pretend to generate an image.
 ## MP4 Export for TikTok / Instagram
 When the user requests animation or video output:
-1. Generate a self-contained HTML Canvas animation file per the spec in `output-formats/mp4-canvas.md`.
+1. Generate a self-contained HTML Canvas animation file per the spec in `output-formats/html-canvas.md`.
 2. Include the Export MP4 button in the HTML.
 3. Inform the user: open in Chrome, click Export MP4, upload the downloaded file to TikTok or Instagram Reels.
 4. Keep animation duration under 5 seconds unless the user specifies otherwise.
@@ -54,4 +54,3 @@ When the user requests animation or video output:
 - Em dashes in any text output.
 - Complex diagrams with more than one main idea.
 - Copying old compositions from examples.
-- React component output (removed – no social media export path).
