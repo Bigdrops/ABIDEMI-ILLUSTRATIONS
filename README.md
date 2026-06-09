@@ -23,7 +23,9 @@ Must perform the core action of every image. Decorative = failure.
 
 ](https://github.com/helloianneo/ian-xiaohei-illustrations)
 
-Works with:
+### Works with any AI coding agent
+
+**Terminal agents**
 
 [
 
@@ -32,12 +34,35 @@ Works with:
 ](https://github.com/anthropics/claude-code)
 [
 
-![Codex](https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Codex CLI](https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ](https://github.com/openai/codex)
 [
 
-![Cursor](https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white)
+![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+
+](https://github.com/google-gemini/gemini-cli)
+[
+
+![Aider](https://img.shields.io/badge/Aider-FF4B4B?style=for-the-badge&logo=python&logoColor=white)
+
+](https://aider.chat)
+[
+
+![Plandex](https://img.shields.io/badge/Plandex-000000?style=for-the-badge&logo=gnubash&logoColor=white)
+
+](https://plandex.ai)
+[
+
+![OpenCode](https://img.shields.io/badge/OpenCode-333333?style=for-the-badge&logo=gnubash&logoColor=white)
+
+](https://github.com/opencode-ai/opencode)
+
+**Editor agents**
+
+[
+
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 
 ](https://cursor.com)
 [
@@ -47,9 +72,67 @@ Works with:
 ](https://windsurf.com)
 [
 
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
 
 ](https://github.com/features/copilot)
+[
+
+![Kilo Code](https://img.shields.io/badge/Kilo_Code-FF6B35?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+](https://kilocode.ai)
+[
+
+![Cline](https://img.shields.io/badge/Cline-6B4FBB?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+](https://github.com/cline/cline)
+[
+
+![Continue](https://img.shields.io/badge/Continue-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+](https://continue.dev)
+[
+
+![Void](https://img.shields.io/badge/Void_Editor-1A1A2E?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+](https://voideditor.com)
+[
+
+![Zed AI](https://img.shields.io/badge/Zed_AI-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white)
+
+](https://zed.dev)
+
+**Cloud / IDE agents**
+
+[
+
+![Kiro](https://img.shields.io/badge/Kiro-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+](https://kiro.dev)
+[
+
+![JetBrains AI](https://img.shields.io/badge/JetBrains_AI-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
+
+](https://www.jetbrains.com/ai/)
+[
+
+![Amp](https://img.shields.io/badge/Amp-FF4500?style=for-the-badge&logo=sourcegraph&logoColor=white)
+
+](https://ampcode.com)
+[
+
+![Melty](https://img.shields.io/badge/Melty-7C3AED?style=for-the-badge&logo=github&logoColor=white)
+
+](https://melty.sh)
+
+**Install methods**
+
+```bash
+npx @bigdrops/abidemi-illustrations init        # auto-detects agent
+npx @bigdrops/abidemi-illustrations init --global  # global install
+bunx @bigdrops/abidemi-illustrations init
+pnpm dlx @bigdrops/abidemi-illustrations init
+yarn dlx @bigdrops/abidemi-illustrations init
+```
 
 </div>
 

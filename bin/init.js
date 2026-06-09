@@ -2,26 +2,70 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 const SKILL_NAME = 'abidemi-illustrations';
 const SOURCE = path.join(__dirname, '..', SKILL_NAME);
+const GLOBAL = process.argv.includes('--global');
 
-// Detect agent environment
 function detectTarget() {
   const cwd = process.cwd();
-  if (fs.existsSync(path.join(cwd, '.codex')))
-    return path.join(cwd, '.codex', 'skills', SKILL_NAME);
-  if (fs.existsSync(path.join(cwd, '.claude')))
-    return path.join(cwd, '.claude', 'skills', SKILL_NAME);
-  if (fs.existsSync(path.join(cwd, '.cursor')))
-    return path.join(cwd, '.cursor', 'skills', SKILL_NAME);
-  if (fs.existsSync(path.join(cwd, '.windsurf')))
-    return path.join(cwd, '.windsurf', 'skills', SKILL_NAME);
-  // Default fallback
+
+  if (GLOBAL) {
+    return path.join(os.homedir(), '.codex', 'skills', SKILL_NAME);
+  }
+
+  const checks = [
+    // Codex (OpenAI)
+    ['.codex', 'skills'],
+    // Claude Code (Anthropic)
+    ['.claude', 'skills'],
+    // Cursor
+    ['.cursor', 'rules'],
+    // Windsurf (Codeium)
+    ['.windsurf', 'rules'],
+    // Kilo Code / Roo Code
+    ['.roo', 'skills'],
+    // Kiro (AWS)
+    ['.kiro', 'steering'],
+    // OpenCode
+    ['.opencode', 'skills'],
+    // Continue.dev
+    ['.continue', 'skills'],
+    // Aider
+    ['.aider', 'skills'],
+    // Cline
+    ['.cline', 'skills'],
+    // Plandex
+    ['.plandex', 'skills'],
+    // Antigravity (Gemini CLI)
+    ['.gemini', 'skills'],
+    // GitHub Copilot
+    ['.github', 'copilot-instructions'],
+    // JetBrains AI (IntelliJ, WebStorm, PyCharm, etc)
+    ['.idea', 'skills'],
+    // Zed AI
+    ['.zed', 'skills'],
+    // Void Editor
+    ['.void', 'skills'],
+    // Melty
+    ['.melty', 'skills'],
+    // Amp (Sourcegraph)
+    ['.amp', 'skills'],
+    // Command Code
+    ['.commandcode', 'skills'],
+  ];
+
+  for (const [dir, sub] of checks) {
+    if (fs.existsSync(path.join(cwd, dir))) {
+      return path.join(cwd, dir, sub, SKILL_NAME);
+    }
+  }
+
+  // No agent detected — fallback to .codex in cwd
   return path.join(cwd, '.codex', 'skills', SKILL_NAME);
 }
 
-// Copy folder recursively
 function copyDir(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
   for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
@@ -33,7 +77,14 @@ function copyDir(src, dest) {
 }
 
 const target = detectTarget();
-console.log(`\nInstalling ${SKILL_NAME} to: ${target}\n`);
+const label = GLOBAL ? '(global)' : '(project)';
+
+console.log(`\nABIDEMI Illustrations — installing ${label}`);
+console.log(`Target: ${target}\n`);
+
 copyDir(SOURCE, target);
-console.log(`Done. Use the skill with:\n`);
-console.log(`  Use $${SKILL_NAME} to illustrate "[your concept]"\n`);
+
+console.log(`✓ Installed successfully.\n`);
+console.log(`Use the skill in your agent:\n`);
+console.log(`  Use $abidemi-illustrations to illustrate "[your concept]"\n`);
+console.log(`Docs: https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS\n`);
