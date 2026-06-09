@@ -1,9 +1,8 @@
-```markdown
 # ABIDEMI Illustrations
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-E63946?style=flat-square" alt="Version">
-  <img src="https://img.shields.io/badge/license-MIT-1D3557?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/platform-TikTok%20%7C%20Instagram-FFB703?style=flat-square" alt="Platforms">
+  <img src="[https://img.shields.io/badge/version-1.0.0-E63946?style=flat-square](https://img.shields.io/badge/version-1.0.0-E63946?style=flat-square)" alt="Version">
+  <img src="[https://img.shields.io/badge/license-MIT-1D3557?style=flat-square](https://img.shields.io/badge/license-MIT-1D3557?style=flat-square)" alt="License">
+  <img src="[https://img.shields.io/badge/platform-TikTok%20%7C%20Instagram-FFB703?style=flat-square](https://img.shields.io/badge/platform-TikTok%20%7C%20Instagram-FFB703?style=flat-square)" alt="Platforms">
 </p>
 Turn any article, concept, or workflow into a white-background, hand-drawn explanatory illustration.
 **Character:** ABIDEMI – a solid black figure with white dot eyes, thin limbs, and a blank expression. Must participate in the core action of every image.
@@ -14,14 +13,14 @@ Turn any article, concept, or workflow into a white-background, hand-drawn expla
 ## Workflow Architecture
 ```mermaid
 graph TD
-    Input[Concept / Article / Text] --> Agent[AI Agent + SKILL.md]
-    Agent --> Process{Identify Anchors & Metaphors}
-    Process --> FormatPNG[PNG Static Carousel]
-    Process --> FormatSVG[SVG Web Embed]
-    Process --> FormatCanvas[HTML Canvas Animation]
-    FormatCanvas --> ExportMP4[Browser MP4 Export]
-    FormatPNG & ExportMP4 --> LivePhoto[Motion Photo Builder]
-    LivePhoto --> TikTok[TikTok Live Carousel Slide]
+Input[Concept / Article / Text] --> Agent[AI Agent + SKILL.md]
+Agent --> Process{Identify Anchors & Metaphors}
+Process --> FormatPNG[PNG Static Carousel]
+Process --> FormatSVG[SVG Web Embed]
+Process --> FormatCanvas[HTML Canvas Animation]
+FormatCanvas --> ExportMP4[Browser MP4 Export]
+FormatPNG & ExportMP4 --> LivePhoto[Motion Photo Builder]
+LivePhoto --> TikTok[TikTok Live Carousel Slide]
 ```
 ## Installation
 ### Package Managers (Any)
@@ -38,7 +37,7 @@ bun add @bigdrops/abidemi-illustrations
 The npm package clones the repository to ./skills/abidemi-illustrations/. If the package is not yet published, use the manual method below.
 ### Manual Installation (Clone)
 ```bash
-git clone [https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git](https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git)
+git clone https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git
 cd ABIDEMI-ILLUSTRATIONS
 ```
 Then copy the abidemi-illustrations/ folder to your agent's skills directory.
@@ -67,17 +66,17 @@ This skill works with any tool that reads markdown-based skill definitions. Test
 ### Examples
 **Cursor:**
 ```bash
-git clone [https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git](https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git)
+git clone https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git
 cp -r ./ABIDEMI-ILLUSTRATIONS/abidemi-illustrations .cursor/skills/
 ```
 **Codex:**
 ```bash
-git clone [https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git](https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git)
+git clone https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git
 cp -r ./ABIDEMI-ILLUSTRATIONS/abidemi-illustrations ~/.codex/skills/
 ```
 **VS Code (Copilot Agent):**
 ```bash
-git clone [https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git](https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git)
+git clone https://github.com/Bigdrops/ABIDEMI-ILLUSTRATIONS.git
 cp -r ./ABIDEMI-ILLUSTRATIONS/abidemi-illustrations .github/skills/
 ```
 ### Verify Installation
