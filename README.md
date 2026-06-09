@@ -1,11 +1,28 @@
 ```markdown
 # ABIDEMI Illustrations
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-E63946?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/license-MIT-1D3557?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/platform-TikTok%20%7C%20Instagram-FFB703?style=flat-square" alt="Platforms">
+</p>
 Turn any article, concept, or workflow into a white-background, hand-drawn explanatory illustration.
 **Character:** ABIDEMI – a solid black figure with white dot eyes, thin limbs, and a blank expression. Must participate in the core action of every image.
 **Format:** 16:9 landscape. Pure white background. Black line art with minimal red/orange/blue accents.
 **Outputs:** PNG, SVG, HTML Canvas animation, MP4 video (for TikTok/Instagram Reels slides).
 > React component output has been intentionally removed. It has no export path to social media formats.
 ---
+## Workflow Architecture
+```mermaid
+graph TD
+    Input[Concept / Article / Text] --> Agent[AI Agent + SKILL.md]
+    Agent --> Process{Identify Anchors & Metaphors}
+    Process --> FormatPNG[PNG Static Carousel]
+    Process --> FormatSVG[SVG Web Embed]
+    Process --> FormatCanvas[HTML Canvas Animation]
+    FormatCanvas --> ExportMP4[Browser MP4 Export]
+    FormatPNG & ExportMP4 --> LivePhoto[Motion Photo Builder]
+    LivePhoto --> TikTok[TikTok Live Carousel Slide]
+```
 ## Installation
 ### Package Managers (Any)
 ```bash
