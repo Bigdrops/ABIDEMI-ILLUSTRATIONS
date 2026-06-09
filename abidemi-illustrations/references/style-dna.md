@@ -1,48 +1,23 @@
 # Style DNA
+## Non‑Negotiable
 
-## One Sentence
+| Property | Value |
+| :--- | :--- |
+| Background | Pure white (`#FFFFFF`). No paper texture, no gradient, no shadow. |
+| Line art | Black (`#000000`), hand‑drawn feel (slight organic curves). |
+| ABIDEMI | Solid black, white dot eyes, thin limbs (as defined in `abidemi-ip.md`). |
+| Negative space | Subject occupies 40–60% of canvas. |
+| Annotation colors | Red (`#E63946`), orange (`#FFB703`), blue (`#1D3557`). Use sparingly – 1–5 characters or one short word. |
+| One idea per image | Do not combine multiple concepts. If you have two ideas, make two images. |
 
-Pure white, minimalist, hand-drawn, spacious, restrained, quirky, product-sketch feel, clean but not instructional.
-
-Like someone who works on AI, products, design, and dev tools every day, sketching an explanation on blank paper.
-
-## Requirements
-
-- 16:9 landscape illustration.
-- Pure white background: no beige, warm gray, paper texture, gradient, shadow, noise, vintage paper feel.
-- Black hand-drawn line art as main style: thin lines, slight wobble, not mechanical, not vector, not heavy strokes.
-- Lots of white space: subject occupies 40%-60% of frame, at least 35% blank, preferably one quiet area.
-- Sparse short annotations: at most 5-8 spots, each spot 2-4 characters or one short word.
-- One image explains only one core action, structure, state, or metaphor.
-- Structure should be expressed naturally, do not write the structure type name on the image.
-
-## Colors
-
-- Black: main line art, characters, boxes, structures, primary text, main objects.
-- Red: key annotations, problems, emotional points, critical reminders, results.
-- Orange: main flow, paths, arrows, automation direction, movement from A to B.
-- Blue: supplementary notes, mental states, system states, second-layer explanations, AI/assistant/automation hints.
-
-Blue is not required in every image. Use colors sparingly, less is more.
-
-## Never Do
-
-- No commercial art.
-- No PPT infographics.
-- No formal flowcharts.
-- No course slides.
-- No cute cartoon posters.
-- No children's illustrations.
-- No complex architecture diagrams.
-- No polished flat illustrations.
-- No tech-feel UI.
-- No real app screenshots.
-- No complex backgrounds, gradients, shadows, textures.
-- Do not explain every node clearly.
-- Do not write "Workflow / System Architecture / Common Pitfalls / Roadmap" type titles in the top-left corner.
-
-## Aesthetic Direction
-
-Quirky, creative, interesting, clean and spacious, imaginative.
-
-Not cute, childish, complex, or rigid.
+## Flexible
+- Line thickness can vary slightly (2–4px).
+- Annotations can be hand‑lettered style or simple sans‑serif.
+- Objects can be slightly abstract – a "gate" can be a rectangle with a gap, a "key" can be a simple L‑shape.
+## Prohibited
+- Gradients, shadows, 3D effects.
+- Cute elements (hearts, stars, sparkles).
+- Complex backgrounds (no cityscapes, no rooms, no patterns).
+- Photorealistic textures.
+- Em dashes in any text (`—`). Use spaces or en dashes (` – `) if needed.
+- Fake pidgin ("am", "wey", "abeg"). Use natural Nigerian informal English.
