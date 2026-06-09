@@ -1,6 +1,0 @@
-interface:
-  display_name: "ABIDEMI Illustrations"
-  short_description: "Generate quirky, clean explanatory illustrations with the ABIDEMI character for articles, posts, and documentation"
-  default_prompt: "Use $abidemi-illustrations to illustrate this concept."
-policy:
-  allow_implicit_invocation: true
